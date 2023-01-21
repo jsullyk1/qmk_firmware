@@ -16,6 +16,7 @@
 
 #pragma once
 
+#define AUDIO_INIT_DELAY
 #define HOLD_ON_OTHER_KEYPRESS
 
 #ifdef AUDIO_ENABLE
