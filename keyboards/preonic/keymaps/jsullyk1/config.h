@@ -16,6 +16,9 @@
 
 #pragma once
 
+#define AUDIO_INIT_DELAY
+#define HOLD_ON_OTHER_KEYPRESS
+
 #ifdef AUDIO_ENABLE
 #    define STARTUP_SONG SONG(PREONIC_SOUND)
 // #define STARTUP_SONG SONG(NO_SOUND)
